@@ -1,0 +1,206 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background: #fff3e6;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+header{
+  display: block;
+  background: #1a0d00;
+  color: #e63900;
+  border-top: 5px solid #e63900;
+  border-right: 5px solid #e63900;
+  border-left: 5px solid #e63900;
+  height: 200px;
+}
+/*  font-family: "Lucida Handwriting";
+
+*/
+h1{
+  font-family: "Rockwell";
+  font-style: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.headerline {
+  font-family: "Didot";
+  text-align: center;
+  font-style: italic;
+  border-bottom: 5px solid black;
+}
+
+
+ul {
+	min-width: 200px;
+  min-height: 50px;
+	list-style: none;
+	margin: 0;
+  padding: 10px 0;
+  overflow: hidden;
+  background: #e63900;
+  text-align: center;
+  justify-content: space-evenly;
+	}
+
+	li {
+    display: inline;    
+    font-family: "Didot";
+    font-size: 32px;
+    list-style-type: none;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+	}
+
+li a {
+  padding: 16px 18px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.intro{
+  font-family: "Rockwell";
+  text-align: center;
+  font-style: italic;
+  font-size: 32px;
+  background: black;
+  color: white;
+  border-right: 5px solid #e63900;
+  border-left: 5px solid #e63900;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  background: black;
+  color: white;
+  border-right: 5px solid #e63900;
+  border-left: 5px solid #e63900;
+  align-items: center;
+}
+
+.menu_title {
+  font-family: "Gill Sans";
+  text-align: center;
+  font-style: bold;
+  font-size: 32px;
+}
+
+.menu_subtitle {
+  font-family: "Gill Sans";
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.menu_images {
+  display: flex;
+  flex: 33.33%;
+  padding: 15px;
+}
+
+@media (max-width: 900px) {
+  .menu_images{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(3, .5fr);
+    margin: 10px 40px 30px 30px;
+    justify-content: space-around;  
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+  }
+}
+
+.menu_img {
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  background: #e63900;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.order {
+  background: black;
+  color: white;
+  border-right: 5px solid #e63900;
+  border-left: 5px solid #e63900;
+  align-items: center;
+}
+
+.order_title {
+  font-family: "Gill Sans";
+  text-align: center;
+  font-style: bold;
+  font-size: 32px;
+}
+
+.order_info {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Gill Sans";
+  font-size: 24px;
+}
+
+.about {
+  background: black;
+  color: white;
+  border-right: 5px solid #e63900;
+  border-left: 5px solid #e63900;
+  align-items: center;
+}
+
+.about_title {
+  font-family: "Gill Sans";
+  text-align: center;
+  font-style: bold;
+  font-size: 32px;
+}
+
+.about_info {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Gill Sans";
+  font-size: 24px;
+}
+
+.chef_img {
+  max-width: 25%;  
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #e63900;
+}
+
