@@ -1,3 +1,3 @@
 # Ko2go
 
-This is a website created with HTML/CSS for a local catering business with an online order form. 
+This project utlizes HTML and CSS to build a website for a catering business to ensure a smooth ordering process for the customers. 
