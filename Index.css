@@ -34,9 +34,7 @@ header{
   border-left: 5px solid #e63900;
   height: 200px;
 }
-/*  font-family: "Lucida Handwriting";
 
-*/
 h1{
   font-family: "Rockwell";
   font-style: bold;
@@ -51,7 +49,6 @@ h1{
   border-bottom: 5px solid black;
 }
 
-
 ul {
 	min-width: 200px;
   min-height: 50px;
@@ -64,23 +61,22 @@ ul {
   justify-content: space-evenly;
 	}
 
-	li {
-    display: inline;    
-    font-family: "Didot";
-    font-size: 32px;
-    list-style-type: none;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-	}
+li {
+  display: inline;
+  font-family: "Didot";
+  font-size: 32px;
+  list-style-type: none;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
 
 li a {
   padding: 16px 18px;
   text-decoration: none;
   color: black;
 }
-
 
 .intro{
   font-family: "Rockwell";
@@ -105,28 +101,28 @@ a {
   align-items: center;
 }
 
-.menu_title {
+.menu-title {
   font-family: "Gill Sans";
   text-align: center;
   font-style: bold;
   font-size: 32px;
 }
 
-.menu_subtitle {
+.menu-subtitle {
   font-family: "Gill Sans";
   text-align: center;
   font-size: 24px;
   font-style: italic;
 }
 
-.menu_images {
+.menu-images {
   display: flex;
   flex: 33.33%;
   padding: 15px;
 }
 
 @media (max-width: 900px) {
-  .menu_images{
+  .menu-images {
     display: flex;
     flex-direction: column;
     grid-template-columns: repeat(3, .5fr);
@@ -138,7 +134,7 @@ a {
   }
 }
 
-.menu_img {
+.menu-img {
   width: 250px;
   height: 250px;
   padding: 15px;
@@ -157,14 +153,14 @@ a {
   align-items: center;
 }
 
-.order_title {
+.order-title {
   font-family: "Gill Sans";
   text-align: center;
   font-style: bold;
   font-size: 32px;
 }
 
-.order_info {
+.order-info {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -180,14 +176,14 @@ a {
   align-items: center;
 }
 
-.about_title {
+.about-title {
   font-family: "Gill Sans";
   text-align: center;
   font-style: bold;
   font-size: 32px;
 }
 
-.about_info {
+.about-info {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -195,7 +191,7 @@ a {
   font-size: 24px;
 }
 
-.chef_img {
+.chef-img {
   max-width: 25%;  
   height: auto;
   display: block;
@@ -203,4 +199,3 @@ a {
   margin-right: auto;
   border: 5px solid #e63900;
 }
-

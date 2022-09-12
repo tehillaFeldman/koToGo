@@ -34,9 +34,7 @@ header{
   border-left: 5px solid #e63900;
   height: 200px;
 }
-/*  font-family: "Lucida Handwriting";
 
-*/
 h1{
   font-family: "Rockwell";
   font-style: bold;
@@ -51,7 +49,6 @@ h1{
   border-bottom: 5px solid black;
 }
 
-
 ul {
 	min-width: 200px;
   min-height: 50px;
@@ -64,16 +61,16 @@ ul {
   justify-content: space-evenly;
 	}
 
-	li {
-    display: inline;    
-    font-family: "Didot";
-    font-size: 32px;
-    list-style-type: none;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-	}
+li {
+  display: inline;
+  font-family: "Didot";
+  font-size: 32px;
+  list-style-type: none;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
 
 li a {
   padding: 16px 18px;
@@ -92,7 +89,7 @@ h3{
   font-size: 32px;
 }
 
-.menu_page_header{
+.menu-page-header {
   font-family: "Rockwell";
   font-style: bold;
   text-align: center;
@@ -129,13 +126,11 @@ caption {
   }
 }
 
-
-
-.menu_items {
+.menu-items {
   background: black;
 }
 
-.Main_dishes {
+.main-dishes {
   color: #e63900;
   border-style: solid;
   border-width: 5px;
@@ -143,7 +138,7 @@ caption {
   background-color: black; 
 }
 
-.main_dish_titles {
+.main-dish-titles {
   padding: 25px;
   justify-content: space-around;  
   align-items: center;
@@ -151,7 +146,6 @@ caption {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .salads {
   color: black;
@@ -161,14 +155,14 @@ caption {
   background-color: #e63900; 
 }
 
-.salad_items {
+.salad-items {
   margin: 10px 40px 30px 30px;
   justify-content: space-around;  
   align-items: center;
   padding: 10px;
 }
 
-.salad_titles {
+.salad-titles {
   padding: 25px;
   justify-content: space-around;  
   align-items: center;
@@ -185,14 +179,14 @@ caption {
   background-color: black; 
 }
 
-.bread_items{
+.bread-items {
   margin: 10px 40px 30px 30px;
   justify-content: space-around;  
   align-items: center;
   padding: 10px;
 }
 
-.bread_titles {
+.bread-titles {
   padding: 25px;
   justify-content: space-around;  
   align-items: center;
@@ -202,7 +196,7 @@ caption {
 }
 
 
-.main_dish_img {
+.main-dish-img {
   width: 350px;
   height: 350px;
   padding: 30px;
@@ -210,7 +204,7 @@ caption {
   text-align: center;
 }
 
-.salad_img {
+.salad-img {
   width: 350px;
   height: 350px;
   padding: 30px;
@@ -218,7 +212,7 @@ caption {
   text-align: center;
 }
 
-.bread_img {
+.bread-img {
   width: 350px;
   height: 350px;
   padding: 30px;
