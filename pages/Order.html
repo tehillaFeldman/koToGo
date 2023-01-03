@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="icon" href="https://cdn.glitch.me/160253b9-b663-45f9-982d-792c43339d90%2F95-954999_italy-clipart-chef-italian-dibujo-de-un-cocinero.png?v=1638762764093" type="image/png"/>
     
     <title>Order</title>
-    <link href="Order.css" rel="stylesheet">
+    <link href="../css/Order.css" rel="stylesheet">
     
     <meta name="description" content="Homestyle kosher take-out in Palo Alto">
     <meta name="keywords" content="food,dinner,kosher,take-out,bay area,palo alto, order">
@@ -27,10 +27,10 @@
     
     <div class="navbar">
       <ul id="horizontal-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Menu.html">Menu</a></li>        
-        <li><a href="Order.html">Order</a></li>      
-        <li><a href="About.html">About</a></li>
+        <li><a href="./Index.html">Home</a></li>
+        <li><a href="./Menu.html">Menu</a></li>        
+        <li><a href="./Order.html">Order</a></li>      
+        <li><a href="./About.html">About</a></li>
       </ul>
     </div>
    
@@ -40,24 +40,22 @@
      <p>Please enter your personal and credit card information below.</p>
      <p>Each dinner is $50 and includes one item from each dish category</p>
    </div>
-   
    <br>
    
     <div class="row">
       <div class="col-75">
         <div class="container">
-          <!--<form action="/action_page.php">-->
           <form action="mailto:tehillafeld@gmail.com" method="post" enctype="text/plain">
             <div class="row">
               <div class="col-50">
                 <h3>Billing Address</h3>
-                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <label for="fname">Full Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <label for="email">Email</label>
                 <input type="text" id="email" name="email" placeholder="john@example.com">
-                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <label for="adr">Address</label>
                 <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <label for="city">City</label>
                 <input type="text" id="city" name="city" placeholder="New York">
 
                 <div class="row">
@@ -101,42 +99,36 @@
 
             <div class="col-25">
               <div class="container">
-                <h4>Cart<br>
-                  <span class="price" style="color:black">
-                    <i class="fa fa-shopping-cart"></i> 
-                    <b>Select 1 item from each dish type</b>
-                  </span>
-                </h4>
+                <h4>Cart - Select 1 item from each dish type</h4>
 
+                <h5>Mains</h5>
                 <label>
-                  <input type="checkbox" checked="checked" name="sesamechicken">Sesame Chicken<span class="dish_type"> - Main</span>
+                  <input type="checkbox">Sesame Chicken
                 </label>
-
                 <label>
-                  <input type="checkbox" checked="checked" name="meatpizza">Meat Pizza<span class="dish_type"> - Main</span>
+                  <input type="checkbox">Meat Pizza
+                </label>
+                <label>
+                  <input type="checkbox">Lasagna
                 </label>
 
+                <h5>Salads</h5>
                 <label>
-                  <input type="checkbox" checked="checked" name="lasagna">Lasagna<span class="dish_type"> - Main</span>
+                  <input type="checkbox">Cabbage Salad
+                </label>
+                <label>
+                  <input type="checkbox">Salmon Salad
                 </label>
 
+                <h5>Breads</h5>
                 <label>
-                  <input type="checkbox" checked="checked" name="cabbagesalad">Cabbage Salad<span class="dish_type"> - Salad</span>
+                  <input type="checkbox">Garlic Knots
                 </label>
-                
                 <label>
-                  <input type="checkbox" checked="checked" name="salmonsalad">Salmon Salad<span class="dish_type"> - Salad</span>
-                </label>
-
-                <label>
-                  <input type="checkbox" checked="checked" name="garlicknots">Garlic Knots<span class="dish_type"> - Bread</span>
-                </label>
-                
-                <label>
-                  <input type="checkbox" checked="checked" name="Dinnerrolls">Garlic Knots<span class="dish_type"> - Bread</span>
+                  <input type="checkbox">Dinner Rolls
                 </label>
 
-                <p>Total <span class="price" style="color:black"><b>$50 (four servings) </b></span></p>
+                <p>Total - <span><b>$50 (four servings)</b></span></p>
               </div>
             </div>
             <input type="submit" value="Submit" class="btn">
