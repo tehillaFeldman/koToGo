@@ -85,12 +85,13 @@ html {
     color: white;
     border-right: 5px solid #e63900;
     border-left: 5px solid #e63900;
+    border-radius: 0px 0px 0px 15px;
   }
   
   a {
     text-decoration: none;
   }
-
+  
   a:hover {
     color: white;
   }
@@ -100,21 +101,21 @@ html {
     color: white;
     border-right: 5px solid #e63900;
     border-left: 5px solid #e63900;
-    align-items: center;
+    border-radius: 15px 0px 15px 0px;
+    font-family: "Gill Sans";
   }
   
   .menu-title {
-    font-family: "Gill Sans";
     text-align: center;
     font-style: bold;
     font-size: 32px;
   }
   
   .menu-subtitle {
-    font-family: "Gill Sans";
     text-align: center;
     font-size: 24px;
     font-style: italic;
+    text-align: center;
   }
   
   .menu-images {
@@ -152,6 +153,7 @@ html {
     color: white;
     border-right: 5px solid #e63900;
     border-left: 5px solid #e63900;
+    border-radius: 0px 15px 0px 15px;
     align-items: center;
   }
   
@@ -175,7 +177,7 @@ html {
     color: white;
     border-right: 5px solid #e63900;
     border-left: 5px solid #e63900;
-    align-items: center;
+    border-radius: 15px 0px 15px 0px;
   }
   
   .about-title {
@@ -200,28 +202,26 @@ html {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #e63900;
+    border-radius: 15px 0px 15px 0px;
   }
   
   /* About Page */
   .about-section {
     background-color: black;
+    color: white;
+    font-family: "Gill Sans";
+    text-align: center;
   }
   
   .about-section-header {
     padding: 50px;
-    text-align: center;
-    color: white;
     border-bottom: 5px solid #e63900;
     border-right: 5px solid #e63900;
     border-left: 5px solid #e63900;
-    font-family: "Gill Sans";
-    text-align: center;
+  
   }
   
   .about-section-body {
-    color: white;
-    font-family: "Gill Sans";
-    text-align: center;
     border-right: 5px solid #e63900;
     border-left: 5px solid #e63900;
     border-bottom: 5px solid #e63900;
@@ -229,7 +229,7 @@ html {
   
   .body-header {
     font-size: 32px;
-  }
+  } 
   
   .chef-img {
     max-width: 25%;  
@@ -320,17 +320,6 @@ html {
   }
 
   /* Menu Page */
-  section {
-    display: block;
-    display: inline;
-  }
-  
-  h3{
-    text-align: center;
-    font-family: "Rockwell";
-    font-size: 32px;
-  }
-  
   .menu-page-header {
     font-family: "Rockwell";
     font-style: bold;
@@ -397,13 +386,6 @@ html {
     background-color: #e63900; 
   }
   
-  .salad-items {
-    margin: 10px 40px 30px 30px;
-    justify-content: space-around;  
-    align-items: center;
-    padding: 10px;
-  }
-  
   .salad-titles {
     padding: 25px;
     justify-content: space-around;  
@@ -421,13 +403,6 @@ html {
     background-color: black; 
   }
   
-  .bread-items {
-    margin: 10px 40px 30px 30px;
-    justify-content: space-around;  
-    align-items: center;
-    padding: 10px;
-  }
-  
   .bread-titles {
     padding: 25px;
     justify-content: space-around;  
@@ -439,25 +414,28 @@ html {
   
   
   .main-dish-img {
-    width: 350px;
-    height: 350px;
-    padding: 30px;
-    border: 2px solid #e63900;
-    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 10px #e63900;
   }
   
   .salad-img {
-    width: 350px;
-    height: 350px;
-    padding: 30px;
-    border: 2px solid black;
-    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #e63900;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 10px black;
   }
   
   .bread-img {
-    width: 350px;
-    height: 350px;
-    padding: 30px;
-    border: 2px solid #e63900;
-    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 10px #e63900;
   }
