@@ -13,17 +13,13 @@
     
   </head>
   
- <body>
-    <!-- this is the start of content -->
-    <div class="header">
+  <body>
     <header>
       <h1><br>Ko2go</h1>
       <h3 class="headerline">
         Filling your Kosher dinner needs<br><br>
       </h3>
     </header>
-    </div> 
-
     
     <div class="navbar">
       <ul id="horizontal-list">
@@ -50,22 +46,22 @@
               <div class="col-50">
                 <h3>Billing Address</h3>
                 <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                <input required type="text" id="fname" name="firstname" placeholder="John M. Doe">
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="john@example.com">
+                <input required type="text" id="email" name="email" placeholder="john@example.com">
                 <label for="adr">Address</label>
-                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                <input required type="text" id="adr" name="address" placeholder="542 W. 15th Street">
                 <label for="city">City</label>
-                <input type="text" id="city" name="city" placeholder="New York">
+                <input required type="text" id="city" name="city" placeholder="New York">
 
                 <div class="row">
                   <div class="col-50">
                     <label for="state">State</label>
-                    <input type="text" id="state" name="state" placeholder="NY">
+                    <input required type="text" id="state" name="state" placeholder="NY">
                   </div>
                   <div class="col-50">
                     <label for="zip">Zip</label>
-                    <input type="text" id="zip" name="zip" placeholder="10001">
+                    <input required type="text" id="zip" name="zip" placeholder="10001">
                   </div>
                 </div>
               </div>
@@ -73,20 +69,20 @@
               <div class="col-50">
                 <h3>Payment</h3>
                 <label for="cname">Name on Card</label>
-                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                <input required type="text" id="cname" name="cardname" placeholder="John More Doe">
                 <label for="ccnum">Credit card number</label>
-                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                <label for="expmonth">Exp Month</label>
-                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                <input required type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="cvv">CVV</label>
+                <input required type="text" id="cvv" name="cvv" placeholder="352">
 
                 <div class="row">
                   <div class="col-50">
-                    <label for="expyear">Exp Year</label>
-                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    <label for="expmonth">Exp Month</label>
+                    <input required type="text" id="expmonth" name="expmonth" placeholder="September">
                   </div>
                   <div class="col-50">
-                    <label for="cvv">CVV</label>
-                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                    <label for="expyear">Exp Year</label>
+                    <input required type="text" id="expyear" name="expyear" placeholder="2018">
                   </div>
                 </div>
               </div>
@@ -96,42 +92,33 @@
               <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
             </label>
   
+            <div class="container col-25"> 
+              <h4>Cart - Select 1 item from each dish type</h4>
 
-            <div class="col-25">
-              <div class="container">
-                <h4>Cart - Select 1 item from each dish type</h4>
+              <label for="main">Main</label>
+              <select name="main">
+                <option value="sesameChicken">Sesame Chicken</option>
+                <option value="MeatPizza">Meat Pizza</option>
+                <option value="Lasagna">Lasagna</option>
+              </select>
+              <br><br>
 
-                <h5>Mains</h5>
-                <label>
-                  <input type="checkbox">Sesame Chicken
-                </label>
-                <label>
-                  <input type="checkbox">Meat Pizza
-                </label>
-                <label>
-                  <input type="checkbox">Lasagna
-                </label>
+              <label for="salad">Salad</label>
+              <select name="salad">
+                <option value="cabbageSalad">Cabbage Salad</option>
+                <option value="salmonSalad">Salmon Salad</option>
+                <option value="Lasagna">Lasagna</option>
+              </select><br><br>
 
-                <h5>Salads</h5>
-                <label>
-                  <input type="checkbox">Cabbage Salad
-                </label>
-                <label>
-                  <input type="checkbox">Salmon Salad
-                </label>
+              <label for="bread">Bread</label>
+              <select name="bread">
+                <option value="dinnerRolls">Dinner Rolls</option>
+                <option value="garlicKnots">Garlic Knots</option>
+              </select>
 
-                <h5>Breads</h5>
-                <label>
-                  <input type="checkbox">Garlic Knots
-                </label>
-                <label>
-                  <input type="checkbox">Dinner Rolls
-                </label>
-
-                <p>Total - <span><b>$50 (four servings)</b></span></p>
-              </div>
+              <p>Total - <span><b>$50 (four servings)</b></span></p>
             </div>
-            <input type="submit" value="Submit" class="btn">
+            <button type="submit" class="btn">Submit</button>
           </form>
         </div>
       </div>
